@@ -122,51 +122,51 @@ const Profile = ({users: {users, loading}, getUsers}) => {
                             <div className=' grid grid-cols-2 gap-4 pb-1'>
                                 <div >
                                     <label htmlFor="firstname" className='block pb-1 sm:text-[0.7rem]'>First name</label>
-                                    <input type="text" id="fname" value={firstName} name="fname" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' />
+                                    <input type="text" id="fname" value={firstName} name="fname" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' disabled />
                                 </div>
                                 <div>
                                     <label htmlFor="lastname" className='block pb-1 sm:text-[0.7rem]'>Last name</label>
-                                    <input type="text" id="lname" value={lastName} name="lname" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]'/>
+                                    <input type="text" id="lname" value={lastName} name="lname" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' disabled />
                                 </div>
                             </div>
                             <div className=' grid grid-cols-2 gap-4 pb-1'>
                                 <div>
                                     <label htmlFor="email" className='block pb-1 sm:text-[0.7rem]'>Email</label>
-                                    <input type="email" id="email" value={email} name="email" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' />
+                                    <input type="email" id="email" value={email} name="email" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem] ' disabled />
                                 </div>
                                 <div>
                                     <label htmlFor="phone" className='block pb-1 sm:text-[0.7rem]'>Phone</label>
-                                    <input type="phone" id="phone" value={phone} name="phone" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]'/>
+                                    <input type="phone" id="phone" value={phone} name="phone" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' disabled />
                                 </div>
                             </div>
                             <div className=' grid grid-cols-2 gap-4 pb-1'>
                                 <div>
                                     <label htmlFor="company" className='block pb-1 sm:text-[0.7rem]'>Company Name</label>
-                                    <input type="text" id="company" value={company} name="company" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' />
+                                    <input type="text" id="company" value={company} name="company" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' disabled />
                                 </div>
                                 <div>
                                     <label htmlFor="phrase" className='block pb-1 sm:text-[0.7rem]'>Company Catch-phrase</label>
-                                    <input type="text" id="phrase" value={phrase} name="phrase" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem] px-4 md:px-1 sm:px'/>
+                                    <input type="text" id="phrase" value={phrase} name="phrase" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem] md:px-1 sm:px' disabled />
                                 </div>
                             </div>
                             <div className=' grid grid-cols-2 gap-4 pb-1'>
                                 <div>
                                     <label htmlFor="address" className='block pb-1 sm:text-[0.7rem]'>Address Name</label>
-                                    <input type="text" id="address" value={address} name="address" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]'  />
+                                    <input type="text" id="address" value={address} name="address" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]'  disabled />
                                 </div>
                                 <div>
                                     <label htmlFor="website" className='block pb-1 sm:text-[0.7rem]'>Website</label>
-                                    <input type="text" id="website" value={website} name="website" className='border border-inputBorder bg-gray-200 rounded-md focus:outline-none text-inputField w-full h-[2.5rem] sm:h-[1.5rem] md:h-[2rem]'/>
+                                    <input type="text" id="website" value={website} name="website" className='border border-inputBorder bg-gray-200 rounded-md focus:outline-none text-inputField w-full h-[2.5rem] sm:h-[1.5rem] px-2 md:h-[2rem]'/>
                                 </div>
                             </div>
                             <div className=' grid grid-cols-2 gap-4 pb-1'>
                                 <div>
                                     <label htmlFor="password" className='block pb-1 sm:text-[0.7rem]'>Change Password</label>
-                                    <input type="password" id="password" name="password" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' />
+                                    <input type="password" id="password" name="password" className='mr-10mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]'  disabled />
                                 </div>
                                 <div>
                                     <label htmlFor="new_password" className='block pb-1 sm:text-[0.7rem]'>Enter New Password</label>
-                                    <input type="password"  id="new_password" name="new_password" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' />
+                                    <input type="password"  id="new_password" name="new_password" className='mr-10 border border-inputBorder bg-gray-200 rounded-md focus:outline-none px-2 text-inputField w-full h-[2.5rem] sm:h-[1.5rem] sm:text-[0.7rem] sm:px-1 md:h-[2rem]' disabled />
                                 </div>
                             </div>
                             <div className='mb-5 grid grid-cols-6 gap-4 pb-1'>
